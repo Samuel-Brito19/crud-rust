@@ -1,0 +1,8 @@
+[package]
+name = "crud-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+tokio = "1.41.0"
