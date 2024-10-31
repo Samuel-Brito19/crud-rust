@@ -1,5 +1,10 @@
 mod user;
-use axum::{routing::get, Error, Router};
+use axum::{
+    routing::{get, post}, 
+    Error, 
+    Router,
+    response::IntoResponse
+};
 use user::User;
 
 #[tokio::main]
